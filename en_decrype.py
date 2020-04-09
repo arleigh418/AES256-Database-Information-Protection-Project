@@ -50,12 +50,12 @@ def aes_decrypt(secret_str, key):
     decrypted_text = str(cryptor.decrypt(base64_decrypted), encoding='utf-8')
     return decrypted_text
 
-#隨機產生密要 需要時使用
+#隨機產生key，for test.
 def token_bytes():
     nbytes = DEFAULT_ENTROPY
     return os.urandom(nbytes)
 
-#隨機產生密要，加上存檔，並且刪除原先的加密檔案(須重產)
+#隨機產生key，加上存檔，並且刪除原先的加密檔案(須重產)
 def generate_key():
     nbytes = DEFAULT_ENTROPY
     key  = token_bytes()
