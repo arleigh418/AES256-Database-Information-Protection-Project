@@ -1,4 +1,4 @@
-# AES-256-encryption-and-decryption
+# AES-Encryption-and-Decryption
 
 # Introcution
 ### All you need is : server_name ,user_id,password,db_name = check_encrype('db_name')
