@@ -1,4 +1,4 @@
-# -AES-256-encryption-and-decryption
+# AES-256-encryption-and-decryption
 
 # Introcution
 1. Please install : pycryptodome
@@ -9,4 +9,4 @@
 
 4. How to use and reference sources are in the program, please check it.
 
-if any questions, please let me know.
+### if any questions, please let me know.
