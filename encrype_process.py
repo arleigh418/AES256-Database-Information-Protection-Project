@@ -33,6 +33,7 @@ def input_new_encrype(db_eng_name):
     return None
 
 def check_encrype(db_eng_name):
+    status = 0
     if os.path.isfile('encrype.config'):
         pass
     else:      
@@ -42,17 +43,17 @@ def check_encrype(db_eng_name):
         if len(each_line)!=0:
             for line in each_line:
                 json_line = json.loads(line)
-                if json_line['target_name'] ==db_eng_name:
+                if json_line['target_name'] ==db_eng_name:  
+                    status+=1
                     key = get_key()
                     server_name = aes_decrypt(json_line['server_name'],key)
                     user_id = aes_decrypt(json_line['user_id'],key)
                     password = aes_decrypt(json_line['password'],key)
                     db = aes_decrypt(json_line['db'],key)
                     return server_name ,user_id,password,db
-                else:
-                    input_new_encrype(db_eng_name)              
+            if status ==0:
+                input_new_encrype(db_eng_name)              
         else:
             input_new_encrype(db_eng_name)
     return None
-
 
