@@ -6,7 +6,7 @@
 
 1. Please install : pycryptodome
 
-2. If you need to generate key first , use function : generate_key() (in en_decrype.py)
+2. You must need to generate key first , use function : generate_key() (in en_decrype.py)
 
 3. This project is assuming you need db connection, and protect all information.(you can modify by yourself)
 
