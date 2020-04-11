@@ -5,7 +5,7 @@ import os
 用法:僅須在程式中使用:
 server_name ,user_id,password,db = check_encrype('db_name')
 返回連線資訊，以DB連線做為範例
-根據輸入的db字串(自訂並維護，如01編號代表某某DB)搜尋是否有加密資訊，若有則解密返回連線資訊；若無則啟動輸入資訊的流程，輸入完後會強制停止，請再重新執行一次程式
+根據輸入的db字串(自訂並維護，如01編號代表某某DB)搜尋是否有加密資訊，若有則解密返回連線資訊；若無則啟動輸入資訊的流程，請管理密碼者輸入，輸入完後會直接停止
 '''
 def input_new_encrype(db_eng_name):
     print(f'Welcome to DB Connect in {db_eng_name}......')
