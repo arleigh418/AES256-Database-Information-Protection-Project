@@ -4,7 +4,7 @@
 ### All you need is : server_name ,user_id,password,db_name = check_encrype('db_name')
 ### For information security, please protect your key.key path
 
-1. Please install : pycryptodome
+1. Please install : pycryptodome, and I suggest u using version-3.9.7
 
 2. You must need to generate key first , use function : generate_key() (in en_decrype.py)
 
