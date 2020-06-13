@@ -1,0 +1,2 @@
+﻿Key->D:\test\AES256\
+Encrype->D:\test\AES256\
