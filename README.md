@@ -1,7 +1,7 @@
 # AES256-Encryption-and-Decryption
 
 # Introcution
-### All you need is : server_name ,user_id,password,db_name = check_encrype('db_name')
+### All you need is : conn,cursor = check_encrype('DB_String')
 ### For information security, please protect your key.key path
 
 1. Please install : pycryptodome, and I suggest u using version-3.9.7
