@@ -1,6 +1,6 @@
 # AES256-Encryption-and-Decryption
 
-# All you need : conn,cursor = check_encrype('Any_string_you_define')
+## All you need : conn,cursor = check_encrype('Any_string_you_define')
 
 # How to use?
 Please follow these processes below when you first implememt:
