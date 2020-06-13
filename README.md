@@ -6,7 +6,7 @@ Please follow these processes below when you first implememt:
 2. Please install : pycryptodome, and I suggest u using version-3.9.7
 3. Maintain Control.txt, and define path for key and encrypted connection information.
 4. Run generate_key.py, to get a new key.
-5. Set conn,cursor = check_encrype('Any_string_you_define') in the code which you wanna connect DB.
+5. conn,cursor = check_encrype('Any_string_you_define') _in the code which you wanna connect DB.
 ### Important ! In Control.txt please be sure to keep the last backslash , like D:\test\AES256\
 
 # Introcution
