@@ -6,8 +6,6 @@ import pymssql
 用法:僅須在程式中使用:
 conn,cursor = check_encrype('TA-SIT')
 '''
-
-#此函式會嵌入在下方的check_encrype，當找不到以被加密過的指定字串，會啟動此函式要求infra輸入登入db的資訊
 def input_new_encrype(db_eng_name):
     #這邊是需要infra輸入的資訊
     print(f'Welcome to DB Connect in {db_eng_name}......')
