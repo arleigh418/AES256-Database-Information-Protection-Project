@@ -7,7 +7,7 @@ Please follow these processes below when you first implememt:
 3. Maintain Control.txt, and define path for key and encrypted connection information.
 4. Run generate_key.py, to get a new key.
 5. Set conn,cursor = check_encrype('Any_string_you_define') in the code which you wanna connect DB.
-### Important ! In Control.txt please be sure to keep the last string '\' , like D:\test\AES256\
+### Important ! In Control.txt please be sure to keep the last backslash , like D:\test\AES256\
 
 # Introcution
 1. This project focus on protect server name,user id,password and db name by using AES256 encrype DB information.
