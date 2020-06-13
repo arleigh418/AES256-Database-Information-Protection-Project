@@ -4,7 +4,7 @@ import os
 import pymssql
 '''
 用法:僅須在程式中使用:
-conn,cursor = check_encrype('TA-SIT')
+conn,cursor = check_encrype('Any_string_you_define')
 '''
 def input_new_encrype(db_eng_name):
     #這邊是需要infra輸入的資訊
