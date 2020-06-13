@@ -57,17 +57,13 @@ def cut_value(org_str):
 
 def aes_encrypt(data, key):
     cryptor = AES.new(key, AES.MODE_CBC, iv=b'0123456789abcdef')
-    #將cut_value返回的32bytes的字元加密
     encrypt_aes = cryptor.encrypt(cut_value(data))
-    #使用base64作encode後再轉為字串利儲存
     encrypted_text = str(base64.encodebytes(encrypt_aes), encoding='utf-8')  
     return encrypted_text
 
 def aes_decrypt(secret_str, key):
     cryptor = AES.new(key, AES.MODE_CBC, iv=b'0123456789abcdef')
-    #使用base64作decoder返回
     base64_decrypted = base64.decodebytes(secret_str.encode(encoding='utf-8'))
-    # 解密base64轉會的字元，並轉回str
     decrypted_text = str(cryptor.decrypt(base64_decrypted), encoding='utf-8')
     return decrypted_text
 
