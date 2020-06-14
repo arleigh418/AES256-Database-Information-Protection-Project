@@ -1,4 +1,4 @@
-# AES256-Encryption-and-Decryption
+# AES256 Database Information Protection Project
 
 ## All you need : conn,cursor = check_encrype('Any_string_you_define')
 
