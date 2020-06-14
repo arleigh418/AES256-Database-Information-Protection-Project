@@ -70,7 +70,7 @@ def check_encrype(db_eng_name):
                         conn = pymssql.connect(server=server_name ,user = user_id ,password = password ,database = db)
                         cursor = conn.cursor()                    
                     except:
-                        print('Descrpt success , but sql connect error.Please check if userid are password are motified')
+                        print('Descrpt success , but sql connect error.Please check if userid or password are motified')
                         exit()
 
             if status ==0:
