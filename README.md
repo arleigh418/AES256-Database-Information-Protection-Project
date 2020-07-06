@@ -13,7 +13,7 @@ Please follow these processes below when you first implememt:
 ### I suggest you follow the same architecture like example.py.
 
 # Introcution
-1. This project focus on protect server name,user id,password and db name by using AES256 encrype DB information.
+1. This project focus on protecting server name,user id,password and db name by using AES256 encrype DB information.
 2. You can define a connect string like TEST, and this program will ask you DB information corresponding to this TEST string, you need to key in  server name,user id,password and db name on command line once, then this program will encrype and it will decrypt automatically and connect to DB next time.
 3. You can try it ! If any bug, please contact me for free.
 
