@@ -2,6 +2,9 @@
 
 ## How to use it in your main code? It's so easy ! Just like example.py. All you need : conn,cursor = check_encrype('Any_string_you_define')
 
+#2020/07/10
+1. fix bugs, please update if you cloned this project before 7/10.
+
 # How to use?
 Please follow these processes below when you first implememt:
 1. Download folder AES256 to your project folder.
