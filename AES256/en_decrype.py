@@ -64,7 +64,7 @@ def aes_encrypt(data, key):
 def aes_decrypt(secret_str, key):
     cryptor = AES.new(key, AES.MODE_CBC, iv=b'0123456789abcdef')
     base64_decrypted = base64.decodebytes(secret_str.encode(encoding='utf-8'))
-    decrypted_text = str(cryptor.decrypt(base64_decrypted), encoding='utf-8')
+    decrypted_text = str(cryptor.decrypt(base64_decrypted), encoding='utf-8').replace('\0', '')
     return decrypted_text
 
 
